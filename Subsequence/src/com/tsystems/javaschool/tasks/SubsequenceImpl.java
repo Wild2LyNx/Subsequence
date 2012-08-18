@@ -10,10 +10,6 @@ public class SubsequenceImpl implements Subsequence {
 	@Override
 	@SuppressWarnings("rawtypes")
 	public boolean find(List x, List y) { 
-		Object a;
-		Object b;
-		a.super.
-		x.removeAll(y);
 		return false;
 	}
 
