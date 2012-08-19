@@ -15,7 +15,7 @@ public class SubsequenceImpl implements Subsequence {
 			return false;
 		int j = 0;
 		for (int i = 0; i < y.size(); i++) {
-			if (x.get(j).equals(y.get(i)))
+			if ((j < x.size()) && (x.get(j).equals(y.get(i))))
 				j++;
 		}
 		if (j == x.size())
